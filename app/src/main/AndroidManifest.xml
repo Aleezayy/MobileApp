@@ -7,13 +7,20 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:theme="@style/Theme.A1123">
 
         <!-- SearchActivity -->
         <activity android:name=".SearchActivity" />
 
         <!-- RegisterActivity -->
         <activity android:name=".RegisterActivity" />
+
+        <!-- DiscoverActivity -->
+        <activity android:name=".DiscoverActivity" />
+
+        <!-- MainActivity -->
+        <activity android:name=".MainActivity" />
 
         <!-- LoginActivity is launcher -->
         <activity
